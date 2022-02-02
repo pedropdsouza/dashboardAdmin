@@ -1,12 +1,12 @@
 import './Sidebar.css';
-import logo from '../../assets/logo.jpeg';
+import avatar from '../../assets/avatar.svg'
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     return (
         <div className={sidebarOpen ? "sidebar-responsive" : ""} id="sidebar">
             <div className="sidebar__title">
                 <div className="sidebar__img">
-                    <img src={logo} alt="logo" />
+                    <img src={avatar} alt="logo" />
                     <h1>PeterBank</h1>
                 </div>
 

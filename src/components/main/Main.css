@@ -17,6 +17,7 @@ main {
     max-height: 100px;
     object-fit: contain;
     margin-right: 28px;
+    border-radius: 50%;
 }
 
 .main__greeting > h1 {

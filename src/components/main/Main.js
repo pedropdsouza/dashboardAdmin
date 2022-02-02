@@ -1,4 +1,4 @@
-import avatar from '../../assets/avatar.svg';
+import logo from '../../assets/logo.jpeg'
 import Chart from '../charts/Charts';
 import './Main.css';
 
@@ -7,9 +7,9 @@ const Main = () => {
         <main>
             <div className="main__container">
                 <div className="main__title">
-                    <img src={avatar} alt="hello" />
+                    <img src={logo} alt="hello" />
                     <div className="main__greeting">
-                        <h1>Olá Pedro</h1>
+                        <h1>Olá Pedro ;)</h1>
                         <p>Bem-vindo ao seu painel</p>
                     </div>
                 </div>
